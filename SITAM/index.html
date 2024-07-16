@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITAM</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div class="notification-updates">
+            <marquee onmouseover="this.stop()" onmouseout="this.start()"><span><img src="assets/new-gif.gif" alt="new" width="30px" height="30px"></span> This is Notification</marquee>
+        </div>
+        <div class="quick-links">
+            <div class="nav">
+                <div class="nav-bar">
+                    <li><a href="https://onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=281997" target="_blank"><span>Online Fee Payment</span></a></li>
+                    <li><a href="#">Student Portal</a></li>
+                    <li><a href="#">Faculty Portal</a></li>
+                    <li><a href="https://results.jntukucev.ac.in/">Jntu-Gv Results</a></li>
+                    <li><a href="https://www.jntufastupdates.com/">Jntu-K Fast Updates</a></li>
+                    <li><a href="https://www.webprosindia.com/satya/default.aspx">Student e-cap</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <div class="logo">
+                <img src="assets/sitam-logo.jpeg" alt="sitam" width="120px" height="90px">
+                <div class="logo-text">SITAM</div>
+            </div>
+            <div class="nav">
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Overview</a></li>
+                              <li><a href="#">Vision & Mission</a></li>
+                              <li><a href="#">History</a></li>
+                              <li><a href="#">Administration</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ACADEMICS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs Offered<span class="caret"></span></a>
+                                    <ul class="dropdown-menu academic">
+                                        <li><a href="#">Btech</a></li>
+                                        <li><a href="#">BBA</a></li>
+                                        <li><a href="#">MBA</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Departments</a></li>
+                                <li><a href="#">Faculty</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Innovations</a></li>
+                                <li><a href="#">Activities</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ADMISSIONS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Admission Process</a></li>
+                                <li><a href="#">Eligibility</a></li>
+                                <li><a href="#">Application Form</a></li>
+                                <li><a href="#">Scholarships</a></li>
+                                <li><a href="#">Fee Structure</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">LIFE AT SITAM<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Campus Life</a></li>
+                                <li><a href="#">Clubs & Societies</a></li>
+                                <li><a href="#">Events & Activities</a></li>
+                                <li><a href="#">Hostel & Accommodation</a></li>
+                                <li><a href="#">Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PLACEMENTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Placement Process</a></li>
+                                <li><a href="#">Recruiters</a></li>
+                                <li><a href="#">Placement Statistics</a></li>
+                                <li><a href="#">Internships</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">NEWS & EVENTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Upcoming Events</a></li>
+                                <li><a href="#">Notifications</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ALUMNI</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <!-- SLIDE SHOW SECTION -->
+
+    <section class="slideshow-section">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="assets/slider/sitam-slideshow.jpg" alt="assets/sitam-slideshow.jpg">
+                <div class="carousel-caption">
+                    <h3>WELCOME TO SITAM</h3>
+                    <p>Best Engineering College in AP</p>
+                    <h4>COLLEGE CODE : <span>SGVP</span></h4>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/slider/civil.jpeg" alt="assets/slideshow-1.jpeg">
+                <div class="carousel-caption">
+                    <h2>Academic Excellence</h3>
+                    <p>Cutting-edge learning environment</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/slider/event-2.jpeg" alt="assets/civil.jpeg">
+                <div class="carousel-caption">
+                    <h2>Innovative Research</h3>
+                    <p>Pioneering discoveries and solutions</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/slider/students.jpg" alt="assets/slideshow-2.jpeg">
+                <div class="carousel-caption">
+                    <h2>Vibrant Student Life</h3>
+                    <p>Beyond the classroom activities</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/slider/slide.jpg" alt="assets/Alumni.jpeg">
+                <div class="carousel-caption">
+                    <h2>Successful Alumni</h3>
+                    <p>Leaders and innovators worldwide</p>
+                </div>
+              </div>
+              ...
+            </div>
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>     
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section class="about-us-section">
+        <div class="about-us-block">
+            <div class="about-us">
+                <ul>
+                    <li class="about-us-li" data-linkname="about-us-paragraph"><h3 class="active-link">About Us</h3></li>
+                    <li class="about-us-li" data-linkname="vision-paragraph"><h3>Our Vision</h3></li>
+                    <li class="about-us-li" data-linkname="mission-paragraph"><h3>Our Mission</h3></li>
+                </ul>
+                <p class="about-us-paragraph">Satya Institute of Technology and Management, Vizianagaram is a private Engineering College established in 2008. The institute is affiliated to JNTU, Kakinada and offers various courses in the field of Engineering & Technology and Management at the UG and PG level. Admission to the courses offered by SITAM are based on the candidate’s performance in various national and state level entrance exams such as AP EAMCET and AP PGECET. Additionally, SITAM, Vizianagaram has a group of 97 faculty members, who are highly qualified and experienced. SITAM also has a dedicated Training and Placement cell that provides placement assistance to the students. Some of the top recruiters are Symphony, TATA Steel and Quess Corp.</p>
+                <p class="vision-paragraph">To evolve into and sustain as a Centre of Excellence in Technological Education and Research with a holistic approach.</p>
+                <p class="mission-paragraph">To produce high quality engineering graduates with the requisite theoretical and practical knowledge and social awareness to be able to contribute effectively to the progress of the society through their chosen field of endeavor.</p>
+            </div>            
+            <div class="about-us-image">
+                <img src="assets/about-us/director.jpg" alt="Sashi Bhushan Rao">
+            </div>
+        </div>
+    </section>
+
+    <section class="management-message">
+        <h1>MESSAGES</h1>
+        <div class="message-section">
+            <div class="msg-card">
+                <img src="assets/about-us/botsa-satyanarayana.jpg" alt="">
+                <div class="msg-text">
+                    <h5>Chairman</h5>
+                    <h3>Botcha Satyanarayana</h3>       
+                       <div class="message">
+                            <p>
+                                "We provide not just education, we prepare you for life"
+                            </p>
+                            <h4>GVP-SITAM is excelling as premier Engineering and Technological Institute. The prestigious aspects of our Institution are Infrastructure,well qualified and experienced Faculties committed to nurture the students with positive outlook.</h4>
+                       </div>
+                </div>
+            </div>
+            <div class="msg-card">
+                <img src="assets/about-us/jhansi.jpg" >
+                <div class="msg-text">
+                    <h5>Secretary and Correspondent</h5>
+                    <h3>Dr.Botcha Jhanshi Lakshmi</h3>
+                    <div class="message">
+                        <p>
+                            "success comes to those who dedicate them selves to their passion"
+                        </p>
+                        <h4>Foresight, ability to seize the oppurtunity, relentless drive to success and tremendous awareness in recognizing the needs of the industry and integrating technical knowledge with professional inputs are the secret of success behind SITAM. However, in the present scenario ,success comes to those who dedicate them selves to their passion.
+                        we believe in imparting quality education with values. Iam glad to welcome you all for opting SITAM to explore the opppurtunities we offer and iam confident that your graduation here wil be challenging and rewarding experience</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="msg-card">
+                <img src="assets/about-us/director.jpg" >
+                <div class="msg-text">
+                    <h5>Director</h5>
+                    <h3>Dr.M.SashiBhushanRao</h3>
+                    <div class="message">
+                        <p>
+                            "You dont have to be great to start, but you have to start to be great"
+                        </p>
+                        <h4>A college is a location where these students can make a right turn in their priceless and promising lives, and I am pleased to witness the energy of the students who have united and focused to the route that would lead them to their desired dream.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-sitam">
+        <div class="sitam-video">
+            <h1>HISTORY OF SITAM</h1>
+            <video src="assets/videos/sitam.mp4" autoplay controls></video>
+            <p>
+                Gayatri Vidya Parishad Society was founded by eminent educationists, academicians, industrialists and those with a touch of human values to empower the young generation with a high quality technical education. The main objective of the society is to impart quality education as well facilitate value based career to the blooming engineers of future generation. Professor B. SarveswaraRao, the nonagenarian and a former Vice-Chancellor of AcharyaNagarjuna University and a renowned economist was the founder President and Dr. B.Swami, octogenarian the Second President is also a former Vice-Chancellor, AcharyaNagarjuna University renowned Physician in the City, he was also the member of Medical Council of India. <span class="read-more">Read More..</span>
+            </p>
+        </div>
+        <div class="notification-section">
+            <h1>NOTIFICATIONS</h1>
+            <div class="notifications">
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <img src="assets/new-2.gif" alt="latest" width="50px" height="50px">
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN, 2024</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+                <div class="notification">
+                    <div class="timestamp">12 JUN</div>
+                    <div class="content">R20 jntu-gv syllabus has been released</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h1>SITAM GALLERY</h1>
+        <div class="gallery">
+            
+        </div>
+    </section>
+
+    <section class="placement-section">
+        <h1>2023-2024 PLACEMENTS</h1>
+        <div class="placements">
+            
+        </div>
+    </section>
+
+
+    <section class="companies-section">
+        <h1>COMPANIES</h1>
+        <div class="companies">
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="useful-links">
+                <h2>USEFUL LINKS</h2>
+                <a href="JNTU-K">JNTU-K</a>
+                <a href="JNTU-GV">JNTU-GV</a>
+                <a href="AICTE">AICTE</a>
+                <a href="APSSDC">APSSDC</a>
+                <a href="APSCHE">APSCHE</a>
+            </div>
+            <div class="quick-links-footer">
+                <h2>QUICK LINKS</h2>
+                <a href="Admissions">Admissions</a>
+                <a href="Registration Form">Registration Form</a>
+                <a href="Academics">Academics</a>
+                <a href="Activities">Activities</a>
+                <a href="Notifications">Notifications</a>
+                <a href="Alumni">Alumni</a>
+            </div>
+            <div class="sitam-portals">
+                <h2>SITAM PORTALS</h2>
+                <a href="E-cap">E-cap</a>
+                <a href="Student Portal">Student Portal</a>
+                <a href="Fee Payments">Fee Payments</a>
+            </div>
+        </div>
+        <div class="copyright">©Copyright 2024 <a href=""><span>SITAM</span></a> All Rights Reserved</div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
