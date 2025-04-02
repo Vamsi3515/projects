@@ -50,19 +50,15 @@ A dynamic, user-editable online encyclopedia.
 
 ---
 
-### 8. Loan Prediction
+### 8. Swiggy Clone
+Developed a clone website of swiggy food delivery application using React.js and Node.js
 
-[GitHub Repository](https://github.com/me50/Vamsi3515/ml/loan_prediction)
-
----
-
-### 9. Swiggy Clone
-
-[GitHub Repository]([https://github.com/me50/Vamsi3515/ml/loan_prediction](https://github.com/Vamsi3515/projectshub/tree/main/web%20development/swiggy_clone))
+[GitHub Repository](https://github.com/Vamsi3515/projectshub/tree/main/web%20development/swiggy_clone)
 
 ---
 
-### 10. VN Tech Internship Platform
+### 9. VN Tech Internship Platform
+Developed a VN Tech website which is basically an internship website
 
 [GitHub Repository](https://github.com/Vamsi3515/projectshub/tree/main/web%20development/vn%20tech%20internship%20platform)
 
